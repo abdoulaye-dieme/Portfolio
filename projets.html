@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projets — Abdoulaye Diémé</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="brand">Abdoulaye<span>.</span>dev</a>
+    <div class="navlinks">
+      <a href="profil.html">Profil</a>
+      <a href="competences.html">Compétences</a>
+      <a href="projets.html" class="active">Projets</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a class="nav-cta" href="contact.html">Me contacter</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <span class="section-num mono">03 — Projets</span>
+    <h1>Cinq produits, cinq problèmes concrets</h1>
+    <p class="lede">Santé, transport, agriculture, actualités et langues locales — des applications pensées pour un usage réel.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="project-list">
+
+      <div class="project" data-reveal>
+        <div class="project-index">01</div>
+        <div>
+          <div class="project-title-row">
+            <h3>Collecte Audio</h3>
+          </div>
+          <p class="desc">Plateforme collaborative d'enregistrement et de validation d'audio en langues locales du Sénégal (wolof, sérère, pulaar), pour l'entraînement d'IA vocales. Projet d'équipe (projet tutoré) ; base de données de 10 tables modélisée en Merise/UML.</p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Flask</span><span class="tag">PostgreSQL</span><span class="tag">Docker</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" data-reveal>
+        <div class="project-index">02</div>
+        <div>
+          <div class="project-title-row">
+            <h3>SenSanté</h3>
+            <a class="project-link" href="https://github.com/abdoulaye-dieme/sensante" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+          <p class="desc">Assistant de pré-diagnostic médical : un modèle de machine learning prédit un pré-diagnostic à partir de données patient, expliqué en langage clair par un LLM (Llama 3), avec garde-fous médicaux. Conteneurisé, prêt pour Hugging Face Spaces.</p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">FastAPI</span><span class="tag">Llama 3 / Groq</span><span class="tag">Docker</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" data-reveal>
+        <div class="project-index">03</div>
+        <div>
+          <div class="project-title-row">
+            <h3>SenTransport</h3>
+            <a class="project-link" href="https://github.com/abdoulaye-dieme/sentransport" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+          <p class="desc">Application cartographiant le réseau de bus de Dakar : lignes et arrêts géolocalisés, recherche d'itinéraires, météo et signalement d'incidents en temps réel.</p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">Leaflet</span><span class="tag">Flask</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" data-reveal>
+        <div class="project-index">04</div>
+        <div>
+          <div class="project-title-row">
+            <h3>Le Miroir</h3>
+            <a class="project-link" href="https://github.com/abdoulaye-dieme/le-miroir" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+          <p class="desc">CMS d'actualités : publication d'articles illustrés, gestion des catégories et des utilisateurs, deux rôles (éditeur, administrateur). Sécurité soignée — bcrypt, CSRF, requêtes préparées, upload validé.</p>
+          <div class="tag-row">
+            <span class="tag">PHP orienté objet</span><span class="tag">MySQL</span><span class="tag">PDO</span><span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" data-reveal>
+        <div class="project-index">05</div>
+        <div>
+          <div class="project-title-row">
+            <h3>Sunufarm</h3>
+            <a class="project-link" href="https://sunufarm1.vercel.app" target="_blank" rel="noopener">Voir en ligne ↗</a>
+          </div>
+          <p class="desc">Marketplace agricole en production : catalogue, panier, favoris, paiement et back-office administrateur. Back-end Firebase (Firestore/Storage) avec vérification des comptes par code OTP par e-mail.</p>
+          <div class="tag-row">
+            <span class="tag">HTML/CSS/JS</span><span class="tag">Firebase</span><span class="tag">Vercel</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;width:100%;align-items:center;">
+    <span>Abdoulaye Diémé — Dakar, Sénégal</span>
+    <div class="footer-links">
+      <a href="https://github.com/abdoulaye-dieme" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/abdoulaye-di%C3%A9m%C3%A9-72218a3a9/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:diemeabdoulaye1st@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
